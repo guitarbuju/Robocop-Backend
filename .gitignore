@@ -1,0 +1,4 @@
+*.log          # Ignore all log files
+secret*.txt    # Ignore files starting with "secret"
+/build/        # Ignore the "build" directory only in the root
+**/node_modules/ # Ignore "node_modules" in any subdirectory
